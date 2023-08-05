@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - SportyShoes </title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+    
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="/download (4).png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contacts</a></li>
+                <li><a href="">Accounts</a></li>
+            </ul>
+        </nav>
+        <img src="/download (5).png" width="30px" height="30px">
+        <img src="/images (1).png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    </div>
+
+    <!-------- cart items details ------>
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+               <th>Product</th>
+               <th>Quantity</th>
+               <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/64293317-800-800.jpg" width="100%">
+                        <div>
+                            <p>White & blue Sneaker</p>
+                            <small>Price: R2000.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R2000.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/62263515-800-800.jpg" width="100%">
+                        <div>
+                            <p>Freshner</p>
+                            <small>Price: R400.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R400.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/62250862-800-800.jpg" width="100%">
+                        <div>
+                            <p>Boxers for men</p>
+                            <small>Price: R100.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R100.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>R2500.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>R300.00</td>
+                </tr>
+                <tr>
+                    <td>total</td>
+                    <td>R2800.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+   
+    
+ <!------- footer------->
+
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+               <h3>Download Our App</h3>
+               <p>Download App for Android and ios mobile phone</p>
+               <div class="app-logo">
+                <img src="/download (6).png">
+                <img src="/images.png">
+               </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="/download (4).png">
+                <p>Our Purpose Is to Sustanability Make the Pleasure and Benefits of Sports Accesible to the Many</p>
+             </div>
+            
+             <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blogs</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+             </div>
+             <br>
+             <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+             </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2021 - Easy Tutorials</p>
+    </div>
+ </div> 
+ <!-------js for toggle menu------->
+ <script>
+    var MenuItems = document.getElementById("MenuItems") ;
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+     if(MenuItems.style.maxHeight == "0px")
+     {
+        MenuItems.style.maxHeight = "200px";
+     els
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+     }
+    }
+ </script>
+
+ 
+</body>
+</html> 
